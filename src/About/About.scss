@@ -1,0 +1,28 @@
+.about-page {
+    background-color: #ebebeb;
+    padding: 20px;
+    height: 100vh;
+
+    .about-content {
+        margin: 1rem;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: white;
+
+        .about-quote {
+            font-size: 2rem;
+            color: var(--color-primary);
+            font-style: italic;
+            opacity: 0.8;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 600;
+        }
+
+        .about-p {
+            color: black;
+            font-size: 1.2rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 200;
+        }
+    }
+}

@@ -12,12 +12,15 @@
             justify-content: space-evenly;
 
             li {
-                padding: 10px 20px;
-                margin: 0px 10px;
+                a {
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    margin: 0px 10px;
 
-                &:hover {
-                    color: rebeccapurple;
-                    cursor: pointer;
+                    &:hover {
+                        color: orange;
+                        cursor: pointer;
+                    }
                 }
             }
 

@@ -1,3 +1,10 @@
+:root {
+  --blue-shade: #40A2E3;
+  --red-shade: #b00020;
+  --white: #FFFFFF;
+}
+
+
 body {
   margin: 0;
   padding: 0;

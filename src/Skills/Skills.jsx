@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.scss';
-import skillsData from '../json/skills/Skills.json';
+import skillsData from '../json/skills/Skills-hindi.json';
 
 function Skills() {
     return (

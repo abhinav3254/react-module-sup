@@ -1,6 +1,6 @@
 .home-main {
     height: 91vh;
-    // background: url('../images/nature.jpg');
+    // background: url('../images/nature.jpeg');
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -9,6 +9,8 @@
         width: fit-content;
         border: 1px solid white;
         margin: auto;
+        color: var(--blue-shade);
+
 
         p {
             margin: 0;
@@ -20,13 +22,12 @@
 
         .name {
             font-size: 2rem;
-            color: #40A2E3;
 
             span {
                 font-weight: 500;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 4rem;
-                color: var(--red-shade);
+                color: var(--orange-shade);
             }
         }
 
@@ -36,6 +37,10 @@
 
         .exp {
             font-size: 2rem;
+
+            span {
+                color: var(--red-shade);
+            }
         }
     }
 

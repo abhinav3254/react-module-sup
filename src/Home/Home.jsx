@@ -9,7 +9,7 @@ function Home() {
                 <p className='greet'>Hello EveryOne</p>
                 <p className='name'>I'm <span>Abhinav Kumar</span></p>
                 <p className='des'>SOFTWARE ENGINEER</p>
-                <p className='exp'>MEAN | MERN | MOBILE | BACKEND</p>
+                <p className='exp'>MEAN <span>|</span> MERN <span>|</span> MOBILE <span>|</span> BACKEND</p>
             </div>
         </div>
     );

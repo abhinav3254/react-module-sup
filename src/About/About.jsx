@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import AboutJson from '../json/about.json'
+import AboutJson from '../json/about/about-maithili.json'
 import './About.scss'
 
 function About() {

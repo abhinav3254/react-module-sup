@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "name": "Android",
+        "title": "android",
+        "icon": "../images/skills/android.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Mobile App Development with Android",
+            "Material Design Principles",
+            "Asynchronous Programming in Kotlin",
+            "Android UI/UX Best Practices"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Angular",
+        "title": "angular",
+        "icon": "../images/skills/angular.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "Single Page Application (SPA) Development",
+            "Angular Components and Directives",
+            "Angular Services and Dependency Injection",
+            "Responsive Web Design with Angular"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Azure",
+        "title": "azure",
+        "icon": "../images/skills/azure.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "Introduction to Cloud Computing",
+            "Azure Resource Management",
+            "Azure Virtual Machines",
+            "Azure DevOps for CI/CD"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bitbucket",
+        "title": "bitbucket",
+        "icon": "../images/skills/bitbucket.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Git Version Control",
+            "Branching Strategies in Bitbucket",
+            "Pull Requests and Code Reviews",
+            "Integration with Jira for Agile Development"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "title": "css",
+        "icon": "../images/skills/css.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "CSS Flexbox and Grid Layout",
+            "Responsive Web Design with CSS",
+            "CSS Preprocessors (Sass/Less)",
+            "Animation and Transitions in CSS"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Express",
+        "title": "express",
+        "icon": "../images/skills/express.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "Building RESTful APIs with Express",
+            "Middleware in Express",
+            "Routing and MVC Architecture",
+            "Error Handling in Express Applications"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Flutter",
+        "title": "flutter",
+        "icon": "../images/skills/flutter.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Cross-platform Mobile App Development",
+            "Dart Programming Language",
+            "Flutter Widgets and UI Components",
+            "State Management in Flutter"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "GitHub",
+        "title": "github",
+        "icon": "../images/skills/github.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "Git Version Control and GitHub Flow",
+            "Collaborative Development with GitHub",
+            "GitHub Actions for CI/CD",
+            "GitHub Issues and Project Management"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "HTML",
+        "title": "html",
+        "icon": "../images/skills/html.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "HTML5 Semantic Elements",
+            "Forms and Input Validation in HTML",
+            "Web Accessibility Guidelines",
+            "Embedding Multimedia (Audio/Video) in HTML"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Ionic",
+        "title": "ionic",
+        "icon": "../images/skills/ionic.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "Cross-platform Mobile App Development with Ionic",
+            "Ionic Components and Styling",
+            "Angular Integration with Ionic",
+            "Deploying Ionic Apps to Mobile Devices"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Java",
+        "title": "java",
+        "icon": "../images/skills/java.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Object-Oriented Programming in Java",
+            "Java Servlets and JSP",
+            "Concurrency in Java",
+            "Unit Testing with JUnit"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "JavaScript",
+        "title": "javascript",
+        "icon": "../images/skills/javascript.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "ES6+ Features and Modern JavaScript",
+            "Asynchronous JavaScript (Promises, Async/Await)",
+            "Client-Side Frameworks (React, Vue, Angular)",
+            "Working with RESTful APIs in JavaScript"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "jQuery",
+        "title": "jquery",
+        "icon": "../images/skills/jquery.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "DOM Manipulation with jQuery",
+            "Event Handling and Animation",
+            "AJAX Requests with jQuery",
+            "Plugins and UI Widgets in jQuery"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Kotlin",
+        "title": "kotlin",
+        "icon": "../images/skills/kotlin.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Kotlin Basics and Syntax",
+            "Functional Programming in Kotlin",
+            "Coroutines and Asynchronous Programming",
+            "Android App Development with Kotlin"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "MongoDB",
+        "title": "mongodb",
+        "icon": "../images/skills/mongodb.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "NoSQL Database Concepts",
+            "CRUD Operations in MongoDB",
+            "Indexing and Aggregation Framework",
+            "MongoDB Atlas for Cloud-Based Deployment"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "MySQL",
+        "title": "mysql",
+        "icon": "../images/skills/mysql.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "Relational Database Design Principles",
+            "SQL Querying and Joins",
+            "Normalization and Database Indexing",
+            "MySQL Workbench for Database Administration"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Node.js",
+        "title": "nodejs",
+        "icon": "../images/skills/nodejs.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Building Server-Side Applications with Node.js",
+            "Express.js Framework for Node.js",
+            "Middleware and Routing in Node.js",
+            "RESTful API Development with Node.js"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Open Source",
+        "title": "open-source",
+        "icon": "../images/skills/open-source.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "Contributing to Open Source Projects",
+            "Version Control in Open Source (Git)",
+            "Collaborative Development Workflows",
+            "Open Source Licensing and Community Standards"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "PostgreSQL",
+        "title": "postgresql",
+        "icon": "../images/skills/postgresql.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "PostgreSQL Database Fundamentals",
+            "Data Types and Querying in PostgreSQL",
+            "Database Transactions and Concurrency",
+            "PostgreSQL Security Best Practices"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Python",
+        "title": "python",
+        "icon": "../images/skills/python.svg",
+        "experience": "Experienced (2+ years)",
+        "knowledge": [
+            "Python Programming Language",
+            "Web Development with Django",
+            "Data Analysis with Pandas",
+            "Unit Testing and Test-Driven Development (TDD)"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "React",
+        "title": "react",
+        "icon": "../images/skills/react.svg",
+        "experience": "Intermediate (1 year)",
+        "knowledge": [
+            "React Components and Props",
+            "State Management in React",
+            "React Router for Navigation",
+            "Redux for Global State Management"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Spring",
+        "title": "spring",
+        "icon": "../images/skills/spring.svg",
+        "experience": "Beginner (Less than 1 year)",
+        "knowledge": [
+            "Java Spring Framework Basics",
+            "Dependency Injection in Spring",
+            "Spring Boot for Microservices",
+            "Testing and Security in Spring"
+        ]
+    }
+]

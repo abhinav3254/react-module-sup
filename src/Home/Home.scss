@@ -9,8 +9,7 @@
         width: fit-content;
         border: 1px solid white;
         margin: auto;
-        color: var(--blue-shade);
-
+        color: var(--color-primary);
 
         p {
             margin: 0;
@@ -31,17 +30,74 @@
             }
         }
 
+
+        /*
+        spin effect on text
+        */
+        #spin {
+            color: var(--color-secondary);
+        }
+
+        #spin:after {
+            content: "SOFTWARE ENGINEER";
+            animation: spin 4s linear infinite;
+        }
+
         .des {
             font-size: 2rem;
+            position: relative;
         }
 
         .exp {
             font-size: 2rem;
 
             span {
-                color: var(--red-shade);
+                color: var(--color-secondary);
             }
         }
     }
+}
 
+@keyframes spin {
+
+    /* Updated animation name here */
+    0% {
+        content: "SOFTWARE ENGINEER";
+    }
+
+    10% {
+        content: "MERN DEVELOPER";
+    }
+
+    20% {
+        content: "MEAN DEVELOPER";
+    }
+
+    30% {
+        content: "JAVA DEVELOPER";
+    }
+
+    40% {
+        content: "ANDROID DEVELOPER";
+    }
+
+    50% {
+        content: "FLUTTER DEVELOPER";
+    }
+
+    60% {
+        content: "IONIC DEVELOPER";
+    }
+
+    70% {
+        content: "FRONTEND ENGINEER";
+    }
+
+    80% {
+        content: "BACKEND ENGINEER";
+    }
+
+    90% {
+        content: "BACKEND ENGINEER";
+    }
 }

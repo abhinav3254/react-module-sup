@@ -1,0 +1,42 @@
+.home-main {
+    height: 91vh;
+    // background: url('../images/nature.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+
+    .home-content {
+        width: fit-content;
+        border: 1px solid white;
+        margin: auto;
+
+        p {
+            margin: 0;
+        }
+
+        .greet {
+            font-size: 2rem;
+        }
+
+        .name {
+            font-size: 2rem;
+            color: #40A2E3;
+
+            span {
+                font-weight: 500;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 4rem;
+                color: #b00020;
+            }
+        }
+
+        .des {
+            font-size: 2rem;
+        }
+
+        .exp {
+            font-size: 2rem;
+        }
+    }
+
+}

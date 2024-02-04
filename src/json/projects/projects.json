@@ -1,0 +1,33 @@
+[
+    {
+        "title": "news tak",
+        "technology": [
+            "java",
+            "android"
+        ],
+        "desc": "This is a native Android application designed using the news18.org API, Java, and XML. This application tells the news using various filters like countries.",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/news-concept-landing-page_52683-20707.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "accountify",
+        "technology": [
+            "java",
+            "android"
+        ],
+        "desc": "Money Tracking application made in android with the help of sql lite database and java programming language.",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/piggy-bank-concept-illustration_114360-5512.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "book store",
+        "technology": [
+            "java",
+            "angular",
+            "jwt"
+        ],
+        "desc": "Full stack project made with spring boot and frontend in angular",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/female-smiling-librarian-standing-counter-book-shelf-paper-flat-vector-illustration-city-library-knowledge_74855-8364.jpg?size=626&ext=jpg"
+    }
+]

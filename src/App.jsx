@@ -6,6 +6,7 @@ import Nav from './Nav/Nav'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </>

@@ -4,16 +4,34 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <div className='nav'>
-            <div className="content">
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/skills">Skills</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </div>
+        <div className='nav-main'>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/">Navbar</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/">Home</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/skills">Skills</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/projects">Projects</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     );
 }

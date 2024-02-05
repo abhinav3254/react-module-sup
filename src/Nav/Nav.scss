@@ -1,29 +1,15 @@
-.nav {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
+// .navbar {
+//     height: 10%;
+//     background-color: navajowhite;
 
-    .content {
-        width: 100%;
+// }
 
-        ul {
-            display: flex;
-            list-style: none;
-            justify-content: space-evenly;
+// .navbar-toggler {
+//     /* Adjust the background color of the toggler if needed */
+//     background-color: navajowhite;
+// }
 
-            li {
-                a {
-                    text-decoration: none;
-                    padding: 10px 20px;
-                    margin: 0px 10px;
+// .collapse.navbar-collapse {
+//     background-color: navajowhite;
 
-                    &:hover {
-                        color: orange;
-                        cursor: pointer;
-                    }
-                }
-            }
-
-        }
-    }
-}
+// }

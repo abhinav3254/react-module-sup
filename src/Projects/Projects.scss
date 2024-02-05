@@ -1,18 +1,20 @@
 .projects {
     background-color: #ebebeb;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-family: 'Ubuntu';
 
     .card {
         width: 18rem;
         margin: 2rem;
         transition: transform 0.5s;
         background-color: white;
-        height: 35rem;
+        height: 40rem;
+        max-height: 40rem;
         width: 20rem;
         padding: 10px;
         border-radius: 10px;

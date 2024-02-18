@@ -3,8 +3,19 @@
     font-style: 'Ubuntu';
     font-weight: 600;
     font-size: 1.2rem;
+    margin: 0px 5px;
+    transition: all 0.5s;
 
     &:hover {
         color: #007DFC;
     }
+}
+
+.dropdown-menu {
+    overflow-y: auto;
+}
+
+.lang-image {
+    width: 2rem;
+    height: 2rem;
 }

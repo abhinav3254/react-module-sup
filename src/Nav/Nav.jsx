@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Nav.scss';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.svg';
 import languageIcon from '../images/language-icon.svg';
 
-function Nav() {
+function Nav({ onSelectLanguage }) {
+    const [selectedLanguage, setSelectedLanguage] = useState('English');
+
+    // Mapping object to convert language names to English
+    const languageMap = {
+        'English': 'English',
+        'मैथिली': 'Maithili',
+        'हिंदी': 'Hindi',
+        'Русский': 'Russian',
+        '中文': 'Chinese'
+    };
+
     // Function to handle language selection
     const handleLanguageSelect = (language) => {
-        console.log(`Selected language: ${language}`);
+        // Convert the selected language to English using the languageMap
+        const languageEnglish = languageMap[language] || language;
+        setSelectedLanguage(languageEnglish);
+        onSelectLanguage(languageEnglish); // Pass the selected language to the parent component
     };
 
     return (
@@ -47,19 +61,19 @@ function Nav() {
                                 </div>
                                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                                     <li>
-                                        <Link className="dropdown-item" onClick={() => handleLanguageSelect('English')}>English</Link>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('English')}>English</button>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" onClick={() => handleLanguageSelect('मैथिली')}>मैथिली</Link>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('मैथिली')}>मैथिली</button>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" onClick={() => handleLanguageSelect('हिंदी')}>हिंदी</Link>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('हिंदी')}>हिंदी</button>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" onClick={() => handleLanguageSelect('Русский')}>Русский</Link>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('Русский')}>Русский</button>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" onClick={() => handleLanguageSelect('中文')}>中文</Link>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('中文')}>中文</button>
                                     </li>
                                 </ul>
                             </li>

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import Home from './Home/Home'
 import About from './About/About'
@@ -9,14 +10,21 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 
 function App() {
+  const [selectedLanguage, setSelectedLanguage] = useState('English');
+  const handleSelectLanguage = (language) => {
+    setSelectedLanguage(language);
+    // console.log(`app language :- ${selectedLanguage}`);
+  };
+
+
   return (
     <>
       <Router>
-        <Nav />
+        <Nav onSelectLanguage={handleSelectLanguage} />
         <div className='nav-sep'>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About selectedLanguage={selectedLanguage} />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />

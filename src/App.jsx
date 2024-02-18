@@ -23,7 +23,7 @@ function App() {
         <Nav onSelectLanguage={handleSelectLanguage} />
         <div className='nav-sep'>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home selectedLanguage={selectedLanguage} />} />
             <Route path="/about" element={<About selectedLanguage={selectedLanguage} />} />
             <Route path="/skills" element={<Skills selectedLanguage={selectedLanguage} />} />
             <Route path="/projects" element={<Projects selectedLanguage={selectedLanguage} />} />

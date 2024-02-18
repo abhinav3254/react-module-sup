@@ -4,10 +4,16 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+
+    img {
+        width: 50%;
+    }
 
     .home-content {
-        width: fit-content;
-        border: 1px solid white;
+        padding: 1rem;
         margin: auto;
         color: var(--color-primary);
 

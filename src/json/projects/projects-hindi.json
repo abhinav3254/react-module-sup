@@ -1,0 +1,33 @@
+[
+    {
+        "title": "समाचार लो",
+        "technology": [
+            "जावा",
+            "एंड्रॉयड"
+        ],
+        "desc": "यह एक स्थानीय एंड्रॉयड एप्लिकेशन है जिसे news18.org एपीआई, जावा और एक्सएमएल का उपयोग करके डिज़ाइन किया गया है। इस एप्लिकेशन में विभिन्न देशों जैसे फ़िल्टर का उपयोग करके समाचार बताया जाता है।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/news-concept-landing-page_52683-20707.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "खाता",
+        "technology": [
+            "जावा",
+            "एंड्रॉयड"
+        ],
+        "desc": "मनी ट्रैकिंग एप्लिकेशन जो एसक्यूएल लाइट डेटाबेस और जावा प्रोग्रामिंग भाषा की सहायता से बनाई गई है।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/piggy-bank-concept-illustration_114360-5512.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "पुस्तक स्टोर",
+        "technology": [
+            "जावा",
+            "एंगुलर",
+            "जेडडब्ल्यूटी"
+        ],
+        "desc": "स्प्रिंग बूट में फुल स्टैक परियोजना और फ्रंटएंड एंगुलर में बनाई गई।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/female-smiling-librarian-standing-counter-book-shelf-paper-flat-vector-illustration-city-library-knowledge_74855-8364.jpg?size=626&ext=jpg"
+    }
+]

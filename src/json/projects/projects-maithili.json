@@ -1,0 +1,33 @@
+[
+    {
+        "title": "न्यूज़ टक",
+        "technology": [
+            "जावा",
+            "एंड्रॉयड"
+        ],
+        "desc": "यह एक नेटिव एंड्रॉयड एप्लिकेशन है जो news18.org API, जावा, और एक्सएमएल का उपयोग करके डिज़ाइन किया गया है। यह एप्लिकेशन विभिन्न फ़िल्टर जैसे देशों का उपयोग करके समाचार दिखाता है।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/news-concept-landing-page_52683-20707.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "अकाउंटिफाई",
+        "technology": [
+            "जावा",
+            "एंड्रॉयड"
+        ],
+        "desc": "स्वल्प लाइट डेटाबेस और जावा प्रोग्रामिंग भाषा की मदद से एंड्रॉयड में बनाई गई पैसे ट्रैकिंग एप्लिकेशन।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/piggy-bank-concept-illustration_114360-5512.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "पुस्तक स्टोर",
+        "technology": [
+            "जावा",
+            "एंगुलर",
+            "जेडडब्ल्यूटी"
+        ],
+        "desc": "स्प्रिंग बूट के साथ पूर्ण स्टैक प्रोजेक्ट और एंगुलर में फ्रंटएंड के साथ बनाया गया।",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/female-smiling-librarian-standing-counter-book-shelf-paper-flat-vector-illustration-city-library-knowledge_74855-8364.jpg?size=626&ext=jpg"
+    }
+]

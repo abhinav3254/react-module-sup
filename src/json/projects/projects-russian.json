@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Новости Tak",
+        "technology": [
+            "Java",
+            "Android"
+        ],
+        "desc": "Это нативное приложение для Android, разработанное с использованием API news18.org, Java и XML. Это приложение рассказывает новости с использованием различных фильтров, таких как страны.",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/news-concept-landing-page_52683-20707.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "Accountify",
+        "technology": [
+            "Java",
+            "Android"
+        ],
+        "desc": "Приложение для отслеживания денег, сделанное на Android с помощью базы данных SQL Lite и языка программирования Java.",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/piggy-bank-concept-illustration_114360-5512.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "Книжный магазин",
+        "technology": [
+            "Java",
+            "Angular",
+            "JWT"
+        ],
+        "desc": "Проект полного стека, выполненный с использованием Spring Boot и фронтенда на Angular.",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/female-smiling-librarian-standing-counter-book-shelf-paper-flat-vector-illustration-city-library-knowledge_74855-8364.jpg?size=626&ext=jpg"
+    }
+]

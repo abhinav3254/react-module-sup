@@ -1,0 +1,33 @@
+[
+    {
+        "title": "新闻 Tak",
+        "technology": [
+            "Java",
+            "Android"
+        ],
+        "desc": "这是一个使用 news18.org API、Java 和 XML 设计的本机 Android 应用程序。该应用程序使用各种过滤器（如国家）告知新闻。",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/news-concept-landing-page_52683-20707.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "账目",
+        "technology": [
+            "Java",
+            "Android"
+        ],
+        "desc": "使用 SQL Lite 数据库和 Java 编程语言制作的资金跟踪应用程序。",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/piggy-bank-concept-illustration_114360-5512.jpg?size=626&ext=jpg"
+    },
+    {
+        "title": "书店",
+        "technology": [
+            "Java",
+            "Angular",
+            "JWT"
+        ],
+        "desc": "使用 Spring Boot 制作的全栈项目，前端使用 Angular。",
+        "github": "https://github.com/abhinav3254/News-Tak",
+        "image": "https://img.freepik.com/free-vector/female-smiling-librarian-standing-counter-book-shelf-paper-flat-vector-illustration-city-library-knowledge_74855-8364.jpg?size=626&ext=jpg"
+    }
+]

@@ -1,15 +1,10 @@
-// .navbar {
-//     height: 10%;
-//     background-color: navajowhite;
+.nav-link {
+    color: black;
+    font-style: 'Ubuntu';
+    font-weight: 600;
+    font-size: 1.2rem;
 
-// }
-
-// .navbar-toggler {
-//     /* Adjust the background color of the toggler if needed */
-//     background-color: navajowhite;
-// }
-
-// .collapse.navbar-collapse {
-//     background-color: navajowhite;
-
-// }
+    &:hover {
+        color: #007DFC;
+    }
+}

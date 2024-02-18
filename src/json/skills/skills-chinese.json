@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "name": "安卓",
+        "title": "android",
+        "icon": "../images/skills/android.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "安卓移动应用开发",
+            "材料设计原则",
+            "科特林异步编程",
+            "安卓UI/UX最佳实践"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "角度",
+        "title": "angular",
+        "icon": "../images/skills/angular.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "单页面应用程序（SPA）开发",
+            "角度组件和指令",
+            "角度服务和依赖注入",
+            "角度响应式Web设计"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Azure",
+        "title": "azure",
+        "icon": "../images/skills/azure.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "云计算介绍",
+            "Azure资源管理",
+            "Azure虚拟机",
+            "用于CI/CD的Azure DevOps"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bitbucket",
+        "title": "bitbucket",
+        "icon": "../images/skills/bitbucket.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "Git版本控制",
+            "Bitbucket中的分支策略",
+            "拉取请求和代码审查",
+            "与Jira集成进行敏捷开发"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "title": "css",
+        "icon": "../images/skills/css.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "CSS Flexbox和Grid布局",
+            "使用CSS进行响应式Web设计",
+            "CSS预处理器（Sass/Less）",
+            "CSS中的动画和过渡"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Express",
+        "title": "express",
+        "icon": "../images/skills/express.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "使用Express构建RESTful API",
+            "Express中的中间件",
+            "路由和MVC架构",
+            "Express应用程序中的错误处理"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Flutter",
+        "title": "flutter",
+        "icon": "../images/skills/flutter.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "跨平台移动应用开发",
+            "Dart编程语言",
+            "Flutter小部件和UI组件",
+            "Flutter中的状态管理"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "GitHub",
+        "title": "github",
+        "icon": "../images/skills/github.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "Git版本控制和GitHub流程",
+            "GitHub上的协作开发",
+            "用于CI/CD的GitHub操作",
+            "GitHub问题和项目管理"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "HTML",
+        "title": "html",
+        "icon": "../images/skills/html.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "HTML5语义元素",
+            "HTML中的表单和输入验证",
+            "网页无障碍指南",
+            "在HTML中嵌入多媒体（音频/视频）"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Ionic",
+        "title": "ionic",
+        "icon": "../images/skills/ionic.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "使用Ionic进行跨平台移动应用开发",
+            "Ionic组件和样式",
+            "Angular与Ionic的集成",
+            "将Ionic应用部署到移动设备"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Java",
+        "title": "java",
+        "icon": "../images/skills/java.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "Java面向对象编程",
+            "Java Servlets和JSP",
+            "Java并发",
+            "JUnit单元测试"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "JavaScript",
+        "title": "javascript",
+        "icon": "../images/skills/javascript.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "ES6+特性和现代JavaScript",
+            "异步JavaScript（Promises，Async/Await）",
+            "客户端框架（React，Vue，Angular）",
+            "JavaScript中的RESTful API"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "jQuery",
+        "title": "jquery",
+        "icon": "../images/skills/jquery.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "使用jQuery进行DOM操作",
+            "事件处理和动画",
+            "使用jQuery进行AJAX请求",
+            "jQuery中的插件和UI小部件"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Kotlin",
+        "title": "kotlin",
+        "icon": "../images/skills/kotlin.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "Kotlin基础和语法",
+            "Kotlin中的函数式编程",
+            "协程和异步编程",
+            "Kotlin中的安卓应用开发"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "MongoDB",
+        "title": "mongodb",
+        "icon": "../images/skills/mongodb.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "NoSQL数据库概念",
+            "MongoDB中的CRUD操作",
+            "索引和聚合框架",
+            "用于基于云的MongoDB Atlas部署"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "MySQL",
+        "title": "mysql",
+        "icon": "../images/skills/mysql.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "关系数据库设计原则",
+            "MySQL查询和连接",
+            "规范化和数据库索引",
+            "用于数据库管理的MySQL Workbench"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Node.js",
+        "title": "nodejs",
+        "icon": "../images/skills/nodejs.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "使用Node.js构建服务器端应用程序",
+            "Node.js的Express.js框架",
+            "Node.js中的中间件和路由",
+            "Node.js中的RESTful API开发"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "开源",
+        "title": "open-source",
+        "icon": "../images/skills/open-source.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "贡献给开源项目",
+            "开源版本控制（Git）",
+            "协作开发工作流",
+            "开源许可和社区标准"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "PostgreSQL",
+        "title": "postgresql",
+        "icon": "../images/skills/postgresql.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "PostgreSQL数据库基础知识",
+            "PostgreSQL中的数据类型和查询",
+            "数据库事务和并发",
+            "PostgreSQL安全最佳实践"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Python",
+        "title": "python",
+        "icon": "../images/skills/python.svg",
+        "experience": "经验丰富（2+年）",
+        "knowledge": [
+            "Python编程语言",
+            "使用Django进行Web开发",
+            "使用Pandas进行数据分析",
+            "单元测试和测试驱动开发（TDD）"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "React",
+        "title": "react",
+        "icon": "../images/skills/react.svg",
+        "experience": "中级（1年）",
+        "knowledge": [
+            "React组件和属性",
+            "React中的状态管理",
+            "用于导航的React Router",
+            "全局状态管理的Redux"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Spring",
+        "title": "spring",
+        "icon": "../images/skills/spring.svg",
+        "experience": "初学者（不到1年）",
+        "knowledge": [
+            "Java Spring框架基础",
+            "Spring中的依赖注入",
+            "用于微服务的Spring Boot",
+            "Spring中的测试和安全性"
+        ]
+    }
+]

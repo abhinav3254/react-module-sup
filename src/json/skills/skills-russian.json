@@ -1,0 +1,288 @@
+[
+    {
+        "id": 1,
+        "name": "Андроид",
+        "title": "android",
+        "icon": "../images/skills/android.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Разработка мобильных приложений на Андроид",
+            "Принципы материального дизайна",
+            "Асинхронное программирование на Kotlin",
+            "Лучшие практики UI/UX на Андроид"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Angular",
+        "title": "angular",
+        "icon": "../images/skills/angular.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Разработка одностраничных приложений (SPA)",
+            "Компоненты и директивы Angular",
+            "Сервисы и инъекция зависимостей в Angular",
+            "Адаптивный веб-дизайн с Angular"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Azure",
+        "title": "azure",
+        "icon": "../images/skills/azure.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Введение в облачные вычисления",
+            "Управление ресурсами Azure",
+            "Виртуальные машины Azure",
+            "Azure DevOps для CI/CD"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bitbucket",
+        "title": "bitbucket",
+        "icon": "../images/skills/bitbucket.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Управление версиями Git",
+            "Стратегии ветвления в Bitbucket",
+            "Pull-запросы и кодовые рецензии",
+            "Интеграция с Jira для гибкой разработки"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "title": "css",
+        "icon": "../images/skills/css.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Гибкие и сетчатые макеты CSS",
+            "Адаптивный веб-дизайн с CSS",
+            "Препроцессоры CSS (Sass/Less)",
+            "Анимация и переходы в CSS"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Express",
+        "title": "express",
+        "icon": "../images/skills/express.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Построение RESTful API с помощью Express",
+            "Промежуточное ПО в Express",
+            "Маршрутизация и архитектура MVC",
+            "Обработка ошибок в приложениях Express"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Flutter",
+        "title": "flutter",
+        "icon": "../images/skills/flutter.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Кросс-платформенная разработка мобильных приложений",
+            "Язык программирования Dart",
+            "Виджеты и компоненты пользовательского интерфейса Flutter",
+            "Управление состоянием в Flutter"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "GitHub",
+        "title": "github",
+        "icon": "../images/skills/github.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Управление версиями Git и рабочий процесс GitHub",
+            "Коллективная разработка с GitHub",
+            "Действия GitHub для CI/CD",
+            "Управление проблемами и проектами GitHub"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "HTML",
+        "title": "html",
+        "icon": "../images/skills/html.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Семантические элементы HTML5",
+            "Формы и проверка ввода в HTML",
+            "Рекомендации по доступности веб-сайтов",
+            "Встраивание мультимедиа (аудио/видео) в HTML"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Ionic",
+        "title": "ionic",
+        "icon": "../images/skills/ionic.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Кросс-платформенная разработка мобильных приложений с Ionic",
+            "Компоненты и стилизация Ionic",
+            "Интеграция Angular с Ionic",
+            "Развертывание приложений Ionic на мобильных устройствах"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Java",
+        "title": "java",
+        "icon": "../images/skills/java.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Объектно-ориентированное программирование на Java",
+            "Java Servlets и JSP",
+            "Параллелизм в Java",
+            "Юнит-тестирование с JUnit"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "JavaScript",
+        "title": "javascript",
+        "icon": "../images/skills/javascript.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Возможности ES6+ и современный JavaScript",
+            "Асинхронный JavaScript (Promises, Async/Await)",
+            "Клиентские фреймворки (React, Vue, Angular)",
+            "Работа с RESTful API на JavaScript"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "jQuery",
+        "title": "jquery",
+        "icon": "../images/skills/jquery.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Манипулирование DOM с помощью jQuery",
+            "Обработка событий и анимация",
+            "Запросы AJAX с помощью jQuery",
+            "Плагины и пользовательские интерфейсные элементы в jQuery"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Kotlin",
+        "title": "kotlin",
+        "icon": "../images/skills/kotlin.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Основы и синтаксис Kotlin",
+            "Функциональное программирование на Kotlin",
+            "Корутины и асинхронное программирование",
+            "Разработка приложений для Android на Kotlin"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "MongoDB",
+        "title": "mongodb",
+        "icon": "../images/skills/mongodb.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Основы баз данных NoSQL",
+            "Операции CRUD в MongoDB",
+            "Индексация и агрегационный фреймворк",
+            "Облачное развертывание MongoDB с помощью Atlas"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "MySQL",
+        "title": "mysql",
+        "icon": "../images/skills/mysql.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Принципы проектирования реляционных баз данных",
+            "SQL-запросы и соединения",
+            "Нормализация и индексация баз данных",
+            "MySQL Workbench для администрирования баз данных"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Node.js",
+        "title": "nodejs",
+        "icon": "../images/skills/nodejs.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Построение серверных приложений с помощью Node.js",
+            "Фреймворк Express.js для Node.js",
+            "Промежуточное ПО и маршрутизация в Node.js",
+            "Разработка RESTful API с помощью Node.js"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Открытый исходный код",
+        "title": "open-source",
+        "icon": "../images/skills/open-source.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Участие в проектах с открытым исходным кодом",
+            "Контроль версий в открытом исходном коде (Git)",
+            "Рабочие процессы совместной разработки",
+            "Лицензирование и стандарты сообщества в открытом исходном коде"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "PostgreSQL",
+        "title": "postgresql",
+        "icon": "../images/skills/postgresql.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Основы баз данных PostgreSQL",
+            "Типы данных и запросы в PostgreSQL",
+            "Транзакции баз данных и параллелизм",
+            "Лучшие практики безопасности PostgreSQL"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Python",
+        "title": "python",
+        "icon": "../images/skills/python.svg",
+        "experience": "Опытный (2+ года)",
+        "knowledge": [
+            "Язык программирования Python",
+            "Веб-разработка с Django",
+            "Анализ данных с помощью Pandas",
+            "Модульное тестирование и разработка через тестирование (TDD)"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "React",
+        "title": "react",
+        "icon": "../images/skills/react.svg",
+        "experience": "Средний (1 год)",
+        "knowledge": [
+            "Компоненты и свойства React",
+            "Управление состоянием в React",
+            "Маршрутизация с React Router",
+            "Redux для глобального управления состоянием"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Spring",
+        "title": "spring",
+        "icon": "../images/skills/spring.svg",
+        "experience": "Начинающий (менее 1 года)",
+        "knowledge": [
+            "Основы фреймворка Java Spring",
+            "Внедрение зависимостей в Spring",
+            "Spring Boot для микросервисов",
+            "Тестирование и безопасность в Spring"
+        ]
+    }
+]

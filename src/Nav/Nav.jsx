@@ -64,7 +64,7 @@ function Nav({ onSelectLanguage }) {
                                         <button className="dropdown-item" onClick={() => handleLanguageSelect('English')}>English</button>
                                     </li>
                                     <li>
-                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('मैथिली')}>मैथिली</button>
+                                        <button className="dropdown-item" onClick={() => handleLanguageSelect('मैथिली')}>মৈথিনী</button>
                                     </li>
                                     <li>
                                         <button className="dropdown-item" onClick={() => handleLanguageSelect('हिंदी')}>हिंदी</button>

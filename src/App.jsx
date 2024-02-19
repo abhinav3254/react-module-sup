@@ -8,6 +8,7 @@ import Nav from './Nav/Nav'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState('English');
@@ -30,6 +31,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   );

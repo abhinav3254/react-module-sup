@@ -3,3 +3,6 @@ ref :- https://amirmustafaofficial.medium.com/prime-react-with-javascript-c96939
 ```
 npm start
 ```
+
+
+// redux -- tech stack

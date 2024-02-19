@@ -5,19 +5,17 @@
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-evenly;
     font-family: 'Ubuntu';
 
     .card {
-        width: 18rem;
-        margin: 2rem;
-        transition: transform 0.5s;
-        background-color: white;
-        height: 40rem;
-        max-height: 40rem;
-        width: 20rem;
+        width: 25%;
+        border: 1px solid black;
         padding: 10px;
         border-radius: 10px;
+        transition: transform 0.5s;
+        background-color: white;
 
         .card-img-top {
             height: 50%;
@@ -29,6 +27,7 @@
 
         &:hover {
             transform: scale(1.1);
+            cursor: pointer;
         }
 
         .card-body {

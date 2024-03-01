@@ -1,0 +1,84 @@
+.ProjectCardComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+
+    .Left {
+        width: 50%;
+    }
+
+    .Right {
+        width: 50%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .TechImage {
+            border: 1px solid black;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            img {
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+        }
+
+        .Description {
+            margin: 10px 0;
+        }
+
+        .GithubButton {
+            border: 1px solid #161614;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: fit-content;
+            padding: 10px;
+            transition: all 0.5s;
+            margin: 10px 0;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin: auto 2px;
+                border-radius: 100%;
+                transition: all 0.5s;
+            }
+            h5 {
+                margin: auto 2px;
+            }
+
+            &:hover {
+                background-color: #161614;
+                color: white;
+                cursor: pointer;
+
+                img {
+                    background: white;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .ProjectCardComponent {
+        flex-direction: column;
+
+        .Left {
+            width: 100%;
+        }
+    
+        .Right {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

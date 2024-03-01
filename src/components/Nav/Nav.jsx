@@ -39,21 +39,27 @@ function Nav({ onSelectLanguage }) {
                     {/* Navigation links aligned to the right */}
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">
+                            {/* Link to home component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/">HOME</Link>
                             </li>
+                            {/* link to about component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">ABOUT</Link>
                             </li>
+                            {/* link to skills component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/skills">SKILLS</Link>
                             </li>
+                            {/* link to projects component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/projects">PROJECTS</Link>
                             </li>
+                            {/* link to blog component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="https://abhinav3254.hashnode.dev/" target='_blank'>BLOGS</Link>
                             </li>
+                            {/* link to contact component */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">CONTACT</Link>
                             </li>

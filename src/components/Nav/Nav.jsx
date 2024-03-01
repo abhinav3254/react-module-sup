@@ -52,6 +52,9 @@ function Nav({ onSelectLanguage }) {
                                 <Link className="nav-link" to="/projects">PROJECTS</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="https://abhinav3254.hashnode.dev/" target='_blank'>BLOGS</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/contact">CONTACT</Link>
                             </li>
                             {/* Language dropdown */}

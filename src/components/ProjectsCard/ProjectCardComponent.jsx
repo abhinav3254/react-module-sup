@@ -10,7 +10,7 @@ function ProjectCardComponent() {
         <div className='ProjectCardComponent'>
             <img className='Left' src={tempImage} alt="" />
             <div className="Right">
-                <h4>Title Of Project</h4>
+                <h2>Title Of Project</h2>
                 <div className="TechImage">
                     <img src={javaImage} alt="" />
                     <img src={springImage} alt="" />

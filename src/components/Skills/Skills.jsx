@@ -32,6 +32,8 @@ function Skills({ selectedLanguage }) {
 
     return (
         <div className='skills'>
+
+            {/* Here we are feeding the data into the component using map */}
             {jsonData && jsonData.map(skill => (
                 <SkillsCardComponent key={skill.id} jsonData={skill} />
             ))}

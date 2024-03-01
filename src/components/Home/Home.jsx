@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Home.scss';
-import imageHome from '../images/undraw_floating_re_xtcj.svg';
-import HomeEnglish from '../json/home/home-english.json';
-import HomeMaithili from '../json/home/home-maithili.json';
-import HomeHindi from '../json/home/home-hindi.json';
-import HomeChinese from '../json/home/home-chinese.json';
-import HomeRussian from '../json/home/home-russian.json';
+import imageHome from '../../images/undraw_floating_re_xtcj.svg';
+import HomeEnglish from '../../json/home/home-english.json';
+import HomeMaithili from '../../json/home/home-maithili.json';
+import HomeHindi from '../../json/home/home-hindi.json';
+import HomeChinese from '../../json/home/home-chinese.json';
+import HomeRussian from '../../json/home/home-russian.json';
 
 
 function Home({ selectedLanguage }) {

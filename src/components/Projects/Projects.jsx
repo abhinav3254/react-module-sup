@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.scss';
-import projectsJsonEn from '../json/projects/projects-english.json';
-import projectsJsonMaithili from '../json/projects/projects-maithili.json';
-import projectsJsonHindi from '../json/projects/projects-hindi.json';
-import projectsJsonRussian from '../json/projects/projects-russian.json';
-import projectsJsonChinese from '../json/projects/projects-chinese.json';
+import projectsJsonEn from '../../json/projects/projects-english.json';
+import projectsJsonMaithili from '../../json/projects/projects-maithili.json';
+import projectsJsonHindi from '../../json/projects/projects-hindi.json';
+import projectsJsonRussian from '../../json/projects/projects-russian.json';
+import projectsJsonChinese from '../../json/projects/projects-chinese.json';
 
 function Projects({ selectedLanguage }) {
     const [jsonData, setJsonData] = useState(null);

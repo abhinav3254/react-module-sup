@@ -5,6 +5,7 @@ import skillsDataMaithili from '../../json/skills/skills-maithili.json';
 import skillsDataHindi from '../../json/skills/skills-hindi.json';
 import skillsDataRussian from '../../json/skills/skills-russian.json';
 import skillsDataChinese from '../../json/skills/skills-chinese.json';
+import { SkillsCardComponent } from '../SkillsCard/SkillsCardComponent';
 
 function Skills({ selectedLanguage }) {
     const [jsonData, setJsonData] = useState(null);
@@ -31,22 +32,12 @@ function Skills({ selectedLanguage }) {
 
     return (
         <div className='skills'>
+
+            {/* Here we are feeding the data into the component using map */}
             {jsonData && jsonData.map(skill => (
-                <div className="skill-card" key={skill.id}>
-                    <header className="skill-card__header">
-                        <img src={require('../../images/skills/' + skill.title.toLowerCase() + '.svg')} alt={skill.name} className="skill-card__icon" />
-                    </header>
-                    <section className="skill-card__body">
-                        <h2 className="skill-card__title">{skill.name}</h2>
-                        <span className="skill-card__duration">{skill.experience}</span>
-                        <ul className="skill-card__knowledge">
-                            {skill.knowledge.map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
-                    </section>
-                </div>
+                <SkillsCardComponent key={skill.id} jsonData={skill} />
             ))}
+
         </div>
     );
 }

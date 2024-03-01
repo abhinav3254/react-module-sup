@@ -5,6 +5,7 @@ import projectsJsonMaithili from '../../json/projects/projects-maithili.json';
 import projectsJsonHindi from '../../json/projects/projects-hindi.json';
 import projectsJsonRussian from '../../json/projects/projects-russian.json';
 import projectsJsonChinese from '../../json/projects/projects-chinese.json';
+import ProjectCardComponent from '../ProjectsCard/ProjectCardComponent';
 
 function Projects({ selectedLanguage }) {
     const [jsonData, setJsonData] = useState(null);
@@ -36,7 +37,7 @@ function Projects({ selectedLanguage }) {
 
     return (
         <div className="projects">
-            {jsonData && jsonData.map((project, index) => (
+            {/* {jsonData && jsonData.map((project, index) => (
                 <div key={index} className="card">
                     <img src={project.image} className="card-img-top" alt={project.title} />
                     <div className="card-body">
@@ -46,7 +47,8 @@ function Projects({ selectedLanguage }) {
                         <a href={project.github} className='button' target='_blank' rel='noopener noreferrer'>Github</a>
                     </div>
                 </div>
-            ))}
+            ))} */}
+            <ProjectCardComponent />
         </div>
     );
 }

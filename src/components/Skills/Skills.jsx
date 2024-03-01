@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './Skills.scss';
-import skillsDataEn from '../json/skills/skills-english.json';
-import skillsDataMaithili from '../json/skills/skills-maithili.json';
-import skillsDataHindi from '../json/skills/skills-hindi.json';
-import skillsDataRussian from '../json/skills/skills-russian.json';
-import skillsDataChinese from '../json/skills/skills-chinese.json';
+import skillsDataEn from '../../json/skills/skills-english.json';
+import skillsDataMaithili from '../../json/skills/skills-maithili.json';
+import skillsDataHindi from '../../json/skills/skills-hindi.json';
+import skillsDataRussian from '../../json/skills/skills-russian.json';
+import skillsDataChinese from '../../json/skills/skills-chinese.json';
 
 function Skills({ selectedLanguage }) {
     const [jsonData, setJsonData] = useState(null);
@@ -34,7 +34,7 @@ function Skills({ selectedLanguage }) {
             {jsonData && jsonData.map(skill => (
                 <div className="skill-card" key={skill.id}>
                     <header className="skill-card__header">
-                        <img src={require('../images/skills/' + skill.title.toLowerCase() + '.svg')} alt={skill.name} className="skill-card__icon" />
+                        <img src={require('../../images/skills/' + skill.title.toLowerCase() + '.svg')} alt={skill.name} className="skill-card__icon" />
                     </header>
                     <section className="skill-card__body">
                         <h2 className="skill-card__title">{skill.name}</h2>

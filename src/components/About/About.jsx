@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import AboutJsonEn from '../json/about/about-english.json';
-import AboutJsonMaithili from '../json/about/about-maithili.json';
-import AboutJsonHindi from '../json/about/about-hindi.json';
-import AboutJsonRussian from '../json/about/about-russian.json';
-import AboutJsonChinese from '../json/about/about-chinese.json';
+import AboutJsonEn from '../../json/about/about-english.json';
+import AboutJsonMaithili from '../../json/about/about-maithili.json';
+import AboutJsonHindi from '../../json/about/about-hindi.json';
+import AboutJsonRussian from '../../json/about/about-russian.json';
+import AboutJsonChinese from '../../json/about/about-chinese.json';
 import './About.scss';
 
 function About({ selectedLanguage }) {

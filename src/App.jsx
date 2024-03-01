@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './Home/Home'
-import About from './About/About'
-import Skills from './Skills/Skills'
-import Nav from './Nav/Nav'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Skills from './components/Skills/Skills'
+import Nav from './components/Nav/Nav'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState('English');

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Nav.scss';
 import { Link } from 'react-router-dom';
-import logo from '../images/name-logo.svg';
-import languageIcon from '../images/language-icon.svg';
+import logo from '../../images/name-logo.svg';
+import languageIcon from '../../images/language-icon.svg';
 
 function Nav({ onSelectLanguage }) {
     const [selectedLanguage, setSelectedLanguage] = useState('English');

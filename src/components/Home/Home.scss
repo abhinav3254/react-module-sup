@@ -7,6 +7,13 @@
     justify-content: space-evenly;
     margin: 1rem;
     padding: 1rem;
+    background: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
 
     img {
         width: 50%;

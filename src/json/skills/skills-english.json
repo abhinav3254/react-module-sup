@@ -221,6 +221,17 @@
         ]
     },
     {
+        "id": 23,
+        "name": "Neo4j",
+        "title": "neo4j",
+        "icon": "../images/skills/nodejs.svg",
+        "experience": "Newbie",
+        "knowledge": [
+            "Building Server-Side Applications with Neo4j",
+            "RESTful API Development with neo4j"
+        ]
+    },
+    {
         "id": 18,
         "name": "Open Source",
         "title": "open-source",

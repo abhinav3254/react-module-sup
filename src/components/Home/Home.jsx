@@ -6,6 +6,7 @@ import HomeMaithili from '../../json/home/home-maithili.json';
 import HomeHindi from '../../json/home/home-hindi.json';
 import HomeChinese from '../../json/home/home-chinese.json';
 import HomeRussian from '../../json/home/home-russian.json';
+import backGroundImage from '../../images/background.jpg'
 
 
 function Home({ selectedLanguage }) {
@@ -49,7 +50,7 @@ function Home({ selectedLanguage }) {
                 <p className='des'>{homeData.des}</p>
                 <p id='spin' className='exp'></p>
             </div>
-            <img src={imageHome} alt="" />
+            {/* <img src={imageHome} alt="" /> */}
         </div>
     );
 }
